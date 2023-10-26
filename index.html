@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximun-scale=1">
+    <title>CISED Admin Dashboard one</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/ff9f9e2cfb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><i class="fab fa-accusoft"></i> <span>CISED</span> </h2>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li><a href="" class="active"><i class="fas fa-receipt"></i><span>Dashboard</span></a></li>
+                <li><a href=""><i class="fas fa-user"></i><span>Customers</span></a></li>
+                <li><a href=""><i class="fas fa-clipboard-list"></i><span>Projects</span></a></li>
+                <li><a href=""><i class="fas fa-shopping-bag"></i><span>Orders</span></a></li>
+                <li><a href=""><i class="fas fa-receipt"></i><span>Inventory</span></a></li>
+                <li><a href=""><i class="fas fa-user-circle"></i><span>Accounts</span></a></li>
+                <li><a href=""><i class="fas fa-clipboard"></i><span>Tasks</span></a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </label>
+                Dashboard
+            </h2>
+
+            <div class="search-wrapper">
+                <i class="fas fa-search"></i>
+                <input type="search" placeholder="search here">
+                
+            </div>
+            <!-- <input class="newin" type="search" placeholder="search here"> -->
+
+
+            <div class="user-wrapper">
+                <img src="img/Achile.jpg" width="40px" height="40px" alt="">
+                <div>
+                    <h4>Ebola Eseme Achile</h4>
+                    <small>Super Admin</small>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h1>54</h1>
+                        <span>Customers</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>79</h1>
+                        <span>Projects</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-clipboard"></i>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>124</h1>
+                        <span>Orders</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>$6k</h1>
+                        <span>Income</span>
+                    </div>
+                    <div>
+                        <i class="fab fa-google-wallet"></i>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="recent-grid">
+                <div class="projects">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Recent projects</h2>
+                            <button>See all <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table style="width: 100%;">
+                                    <thead>
+                                        <tr>
+                                            <td>Project title</td>
+                                            <td>Department</td>
+                                            <td>Status</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>UI/UX Design</td>
+                                            <td>UI Team</td>
+                                            <td>
+                                                <span class="status purple"></span>
+                                                Review
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Web Development</td>
+                                            <td>Frontend</td>
+                                            <td>
+                                                <span class="status pink"></span>
+                                                In progress
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ushop App</td>
+                                            <td>Mobile Team</td>
+                                            <td>
+                                                <span class="status orange"></span>
+                                                Pending
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>UI/UX Design</td>
+                                            <td>UI Team</td>
+                                            <td>
+                                                <span class="status purple"></span>
+                                                Review
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Web Development</td>
+                                            <td>Frontend</td>
+                                            <td>
+                                                <span class="status pink"></span>
+                                                In progress
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ushop App</td>
+                                            <td>Mobile Team</td>
+                                            <td>
+                                                <span class="status orange"></span>
+                                                Pending
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="customers">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>New customers</h2>
+                            <button>See all <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="img/Achile.jpg" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>Divine-Praise Ebola David</h4>
+                                        <small>CEO Praloisra Ltd</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <i class="fas fa-user-circle"></i>
+                                    <i class="fas fa-comments"></i>
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="img/Achile.jpg" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>Ebola Eseme Achile</h4>
+                                        <small>CEO CISED Ltd</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <i class="fas fa-user-circle"></i>
+                                    <i class="fas fa-comments"></i>
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="img/Achile.jpg" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>Njume Esungue Salome</h4>
+                                        <small>CFO CISED Ltd</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <i class="fas fa-user-circle"></i>
+                                    <i class="fas fa-comments"></i>
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="img/Achile.jpg" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>Ngulefack AShley</h4>
+                                        <small>CTO CISED Ltd</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <i class="fas fa-user-circle"></i>
+                                    <i class="fas fa-comments"></i>
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="img/Achile.jpg" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>Nditewoh Melvis</h4>
+                                        <small>CSO Praloisra Ltd</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <i class="fas fa-user-circle"></i>
+                                    <i class="fas fa-comments"></i>
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>
